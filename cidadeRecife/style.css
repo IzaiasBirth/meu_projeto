@@ -1,17 +1,15 @@
-body{
-    background-color:beige;
+body {
+    background-color: antiquewhite;
+
 }
-h1{
-    color:darkslategrey;
-    font-style:inherit;
+section {
+    display: flex;
+    flex-direction: row, row-reverse, column, column-reverse;
+    justify-content:space-between;
+    align-content: center;
+    background-color:azure;
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    text-align:justify;
-}
-.image{
-    padding: 2px;
-    margin-top: 5px;
-    display:inline-flexbox;
+
+* {
+    text-decoration: none;
 }
